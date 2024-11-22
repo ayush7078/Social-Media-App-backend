@@ -28,9 +28,9 @@ JWT_SECRET=your_jwt_secret
 npm run dev
 
 # API Endpoints
-POST /api/auth/register: Register a new user
-POST /api/auth/login: Log in a user
-POST /api/posts: Create a post (requires authentication)
-GET /api/posts: Fetch all posts (supports pagination)
-POST /api/comments: Add a comment to a post (requires authentication)
+1. POST /api/auth/register: Register a new user
+2. POST /api/auth/login: Log in a user
+3. POST /api/posts: Create a post (requires authentication)
+4. GET /api/posts: Fetch all posts (supports pagination)
+5. POST /api/comments: Add a comment to a post (requires authentication)
 
