@@ -1,4 +1,4 @@
-## Backend Project with Real-Time Chat and Social Media Features
+## Backend Project with Social Media Features and Real-Time Chat and Notification
 This backend project provides a robust foundation for  user authentication, post creation, commenting features and real-time chat and Notification. The project is built using Node.js, Express.js, MongoDB, and Socket.IO.
 
 # Features
