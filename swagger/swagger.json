@@ -1,14 +1,18 @@
 {
     "openapi": "3.1.0",
     "info": {
-      "title": "Real-Time Chat API",
-      "description": "A simple API for real-time chat and notifications",
+      "title": "Social Media Platform APIs",
+      "description": "A simple API for Social Media Platform",
       "version": "1.0.0"
     },
     "servers": [
       {
         "url": "http://localhost:5000/api",
         "description": "Local development server"
+      },
+      {
+        "url": "https://social-media-app-backend-cmw2.onrender.com/api",
+        "description": "live development server or url"
       }
     ],
     "components": {
