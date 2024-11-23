@@ -3,7 +3,7 @@ let io;
 const setupChat = (socketIoInstance) => {
   io = socketIoInstance; // Assign the passed instance to the local variable
 
-  const userSockets = new Map(); // Map to store user IDs and their corresponding socket IDs
+  const userSockets = new Map(); 
 
   io.on('connection', (socket) => {
     console.log('New client connected');

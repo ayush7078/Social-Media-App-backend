@@ -12,7 +12,7 @@ exports.addComment = async (req, res) => {
 
     // Create the comment
     const comment = await Comment.create({ text, post: postId, user: userId });
-
+  // get the post details using postId
     const post = await Post.findById(postId);
 
     if (!post) {

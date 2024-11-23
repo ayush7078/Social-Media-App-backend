@@ -1,0 +1,27 @@
+{
+    "users": {
+      "_id": "ObjectId",
+      "name": "String",
+      "email": "String",
+      "password": "String",
+      "createdAt": "ISODate",
+      "updatedAt": "ISODate"
+    },
+    "comments": {
+      "_id": "ObjectId",
+      "text": "String",
+      "userId": "ObjectId",
+      "postId": "ObjectId",
+      "createdAt": "ISODate",
+      "updatedAt": "ISODate"
+    },
+    "posts": {
+      "_id": "ObjectId",
+      "title": "String",
+      "content": "String",
+      "authorId": "ObjectId",
+      "createdAt": "ISODate",
+      "updatedAt": "ISODate"
+    }
+  }
+  
