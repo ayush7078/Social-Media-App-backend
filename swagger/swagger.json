@@ -7,13 +7,14 @@
     },
     "servers": [
       {
-        "url": "http://localhost:5000/api",
-        "description": "Local development server"
-      },
-      {
         "url": "https://social-media-app-backend-cmw2.onrender.com/api",
         "description": "live development server or url"
+      },
+      {
+        "url": "http://localhost:5000/api",
+        "description": "Local development server"
       }
+     
     ],
     "components": {
       "securitySchemes": {
