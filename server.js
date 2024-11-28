@@ -29,10 +29,11 @@ app.use(express.json());
 app.use('/api', apiRoutes);
 app.use(errorHandlerMiddleware);
 
+
 app.get('/', (req, res) => {
   res.send("Server is running");
 });
-ss
+
 // Serve Swagger API Documentation at /api-docs
 const swaggerDocument = JSON.parse(fs.readFileSync(path.join(__dirname, 'swagger/swagger.json'), 'utf8'));
 app.use('/api-docs', swaggerUi.serve, swaggerUi.setup(swaggerDocument));
